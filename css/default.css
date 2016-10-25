@@ -1,0 +1,241 @@
+@import url("reset.css");
+
+/* ------ layout
+-----------------------------------------------*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.green{
+    color:#19B07A;
+}
+.my-form{
+    padding: 3em;
+}
+.link{
+    color: #193340;
+    border: none;
+    display: inline;
+}
+.social, .social a{
+    font-size:x-large;
+    color:#193340;
+    padding: 0px 20px;
+}
+
+section div > div{
+    padding: 2em 1em;
+}
+
+.social a:hover,
+.social a:focus{
+    color: #19B07A;
+}
+.info{
+    text-align: left;
+    margin: 3em;
+    padding: 1em;
+    width: 75%;
+    border-left: 3px solid #193340;
+}
+
+#school{
+    border-bottom: 3px solid #19B07A;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+article{
+    text-align: left;
+    margin: 3em;
+    padding: 1em;
+    width: 75%;
+    border-left: 3px solid #19B07A;
+}
+article a{
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #193340;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+article a:hover, article a:focus{
+color: #19B07A;
+    text-decoration: none;
+}
+
+.legend {
+    float: left;
+    width: 250px;
+    margin-top: 140px;
+}
+.legends {
+    float: right;
+    width: 250px;
+    margin-top: 140px;
+}
+#content h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: right;
+}
+.skills {
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+.skills ul,
+.skills li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills li {
+    float: right;
+    clear: both;
+    padding: 0 15px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    margin-bottom: 1px;
+    font-size: 18px;
+}
+
+.skills .js {
+    background: #19B07A;
+}
+
+.skills .jq {
+    background: #193340;
+}
+
+.skills .css {
+    background: #D84F5F;
+}
+
+.skills .html {
+    background: #88B8E6;
+}
+
+.skills .php {
+    background: #BEDBE9;
+}
+
+.skills .sql {
+    background: #EDEBEE;
+}
+
+.skills .C {
+    background: #1177dd;
+}
+
+.skills .Cplus {
+    background: #97770D;
+}
+
+.skills .Cs {
+    background: #7d7d7d;
+}
+
+.skills .java {
+    background: #E66BaE;
+}
+
+.skills .python {
+    background: #ED993E;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 10px 0;
+    font-size: medium;
+    text-align: center;
+    height: 3em;
+}
+
+footer a {
+    color: #EAEAEA;
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #19B07A;
+    text-decoration: none;
+}
+
+#diagram {
+    float: right;
+    width: 600px;
+    height: 600px;
+}
+
+#diagrams {
+    float: left;
+    width: 600px;
+    height: 600px;
+}
+
+.get {
+    display: none;
+}
+
+.gets {
+    display: none;
+}
+
+hr {
+    border-color: #336699;
+    border-width: 3px;
+    max-width: 50px;
+}
+
+hr.light {
+    border-color: white;
+}
+
+.bg-primary {
+    background-color: #336699;
+}
+
+.bg-white{
+    background-color: #fff;
+    color: #2C3E50;
+}
+
+.bg-dark {
+    background-color: #222222;
+    color: white;
+}
+.no-padding {
+    padding: 0;
+}
+
+.no-margin{
+    margin: 0px;
+}
+
+.navbar-default {
+    font-weight: 700;
+    font-size: medium;
+    color: #336699;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0px;
+}
+
+.navbar .navbar-nav, .nav .navbar-nav {
+    display: inline-block;
+    float: none;
+    text-align: center;
+}
